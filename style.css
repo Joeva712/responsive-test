@@ -1,0 +1,140 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-image: url(./assets/images/peakpx.jpg);
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+.main {
+  flex: 1;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+footer {
+  text-align: right;
+  color: midnightblue;
+}
+
+.eydis {
+  width: 300px;
+  float: left;
+  margin-right: 50px;
+  border-radius: 20px;
+  border: 5px solid white;
+}
+
+.card {
+  display: inline-block;
+  margin-top: 20px;
+  background: rgba(0, 0, 0, 0.848);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+div.left{
+  width: 800px;
+  float: left;
+
+}
+
+div.right{
+  width: 800px;
+  float: right;
+}
+
+.logo{
+  width: 230px;
+}
+
+h2 {
+  margin: 20px 0px;
+  color: white;
+}
+
+p{
+  color: white;
+}
+
+.pfoot{
+  color: black;
+  clear: both;
+}
+
+.ses{
+  color: black;
+
+}
+
+.sei{
+  margin-top: 20px;
+}
+
+@media (min-width: 319px) and (max-width:480px){
+  .card{
+    display: block;
+  }
+
+  div.left{
+    width: 87%;
+  }
+
+  h2{
+    text-align: center;
+  }
+
+  div.right{
+    float: left;
+    width: 87%;
+  }
+
+  .eydis{
+    margin-bottom: 20px;
+    width: 96%;
+  }
+
+  h1{
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: 1%;
+  }
+
+  h3{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 0.6em;
+  }
+
+  .logo{
+    width: 120px;
+    text-align: center;
+  }
+
+
+  footer{
+    text-align: center;
+    font-size: 0.6em;
+    background-color: aliceblue;
+  }
+
+  body{
+    background-image: url(./assets/images/peakpx\ \(4\).jpg);
+    background-size: cover;
+    overflow: hidden;
+    margin: 0px;
+    height: 100vh;
+  }
+
+  .main{
+    height: 100vh;
+    margin: 0px;
+    overflow-y: auto;
+    padding: 20px;
+    padding-left: 27px;
+    background: rgba(255,255,255,0.4);
+  }
+}
